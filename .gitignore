@@ -1,0 +1,86 @@
+# ==========================================
+# Python Core & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments & Dependencies
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+lib/
+lib64/
+bin/
+include/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Django Specific
+# ==========================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+static_root/
+
+# User-uploaded media directory
+media/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+*.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Testing & Code Quality
+# ==========================================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Packaging & Distributions
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+*.egg-info/
+*.egg
+*.whl
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
